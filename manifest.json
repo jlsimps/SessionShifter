@@ -1,20 +1,19 @@
 {
-    "manifest_version": 3,
-    "name": "Session Manager v1",
-    "version": "1.0",
-    "description": "Manage multiple isolated sessions",
-    "permissions": ["cookies", "storage", "tabs", "webNavigation"],
-    "background": {
-      "service_worker": "background.js"
-    },
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icons/icon16.png",
-        "48": "icons/icon48.png",
-        "128": "icons/icon128.png"
-      }
-    },
-    "host_permissions": ["<all_urls>"]
-  }
-  
+  "manifest_version": 3,
+  "name": "Session Shifter",
+  "version": "1.1",
+  "description": "Effortlessly manage multiple isolated browsing sessions within one browser. Switch between different sets of cookies and local storage to keep your activities separate and organized.",
+  "permissions": ["cookies", "storage", "tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "host_permissions": ["<all_urls>"]
+}
